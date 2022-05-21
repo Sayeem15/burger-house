@@ -1,0 +1,58 @@
+@media screen and (max-width: 1357px) {.offer {
+  
+    bottom: -88px;
+    right: 36%;
+    
+}
+   
+    
+
+}
+@media screen and (max-width: 1199px) {header {
+    
+    height: 600px;
+}
+    .burgerbanner {
+
+    max-width: 600px;
+    top: 62px;
+    right: -30px;
+    
+}
+.offer {
+   
+    bottom: -67px;
+    right: 34%;
+   
+}
+.banner-content p {
+   
+    font-size: 14.5px;
+    
+    padding: 5px 5px;
+   
+}
+.offer div{height: 130px; width: 130px;}
+.banner-content h1 {
+    
+    font-size: 90px;
+   
+}}
+@media screen and (max-width: 991px) {.navbar-brand img{width: 200px;
+}
+    
+.delivery-info img{margin-right: 35px;}
+.header{padding-top: 30px;}
+}
+@media screen and (max-width: 767px) {
+    
+
+}
+@media screen and (max-width: 575px) {
+    
+
+}
+@media screen and (max-width: 320px) {
+    
+
+}

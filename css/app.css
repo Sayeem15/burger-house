@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+:root{--theme-color: #3d2514 ;
+--red: #DE1D1C;}
+
+body{font-family: 'Montserrat', sans-serif;
+color: var(--theme-color);overflow-x: hidden; width: 100%;}
+html,body{}
+
+header{background-image: url(../images/Bg.png);
+background-size: cover; 
+background-repeat: no-repeat;
+padding-top: 50px;
+height: 650px;}
+.delivery-info{display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.navbar-brand img{}
+.delivery-info p{margin-bottom: 0; 
+	font-size: 16px;
+color: var(--theme-color);}
+.delivery-info img{margin-right: 60px;}
+.navbar .navbar-nav .nav-link{
+	color: var(--theme-color);
+ font-size: 21px;
+ font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+text-transform: uppercase;
+padding-left: 55px;
+padding-right: 0;}
+
+.banner-content p{
+	color: var(--theme-color); 
+	font-size: 16.5px;
+text-transform: uppercase;
+border: 2px dashed;
+padding: 5px 14px;
+border-radius: 5px;
+display: inline-block;
+}
+.banner-content h1{
+	color: var(--theme-color);
+font-family: 'Alfa Slab One', cursive;
+font-size: 100px; 
+text-shadow: 4px 4px 0 #ffffff; 
+margin-bottom: 0;}
+
+
+
+.banner-content h2{color: var(--theme-color);
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56.5px;
+text-shadow: 4px 4px 0 #ffffff;
+margin-bottom: 0;}
+.banner-content{color: var(--theme-color); margin-top: 100px;}
+.banner-image{}
+.banner-image img{}
+.offer h1{text-align: center;
+	font-size: 70px;
+	font-family: 'Bebas Neue', cursive;
+	line-height: 1;
+	
+
+
+}
+.offer div{border: 2px dashed;
+	width: 150px;
+height: 150px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.offer h1 span{font-size: 30px;}
+
+.offer h1 b{font-size: 30px;
+ letter-spacing: 2px;
+ display: block;}
+.offer{background:#DE1D1C;
+color: #ffffff;
+border-radius: 50%;
+ margin-bottom: 0px;
+z-index: 1;
+position: absolute;
+bottom: 60px;
+right: 37%;
+padding: 10px;
+}
+.burgerbanner{position: absolute;max-width: 700px;top: 0px;right: 0px;}
+.bundle-offer-box{position: relative; margin-bottom: 38px;}
+.bundle-offer-box .bundle-text{position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px;
+	color: white;
+	font-family: 'Bebas Neue', cursive;}
+.bundle-offer-box .bundle-text h4{font-size: 25px; margin-bottom: 0;}
+.bundle-offer-box .bundle-text h2{font-size: 42px; margin-bottom: 0;}
+.heading{}
+.heading h5{font-family: 'Bebas Neue', cursive;}
+.heading h1{font-family: 'Alfa Slab One', cursive;}
+.heading p{}
+.heading-a{text-decoration: none; color: var(--theme-color); 
+
+    padding: 16px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.30px;
+    color: #3d2514;
+    margin: 20px auto;
+    cursor: pointer;
+    height: 50px;
+    width: 218px;
+    border: none;
+    transition: all 0.25s ease-in-out;
+}
+.heading-a:hover {
+    background-color: #cc0000;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 50px;
+    color: white;
+    justify-content: center;
+    transition: 0.4s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.33);
+}
+.product{text-align: center;padding: 30px;}
+.product img{}
+.product h2{font-family: 'Bebas Neue', cursive;}
+.product p{}
+.btn-custom{font-family: 'Alfa Slab One', cursive; 
+	background-color: var(--red);
+color:white; font-size: 16.67px;
+letter-spacing: 2px;text-transform: uppercase; padding: 5px 20px; border-radius: 0;}
+.btn-custom:hover{background-color: var(--theme-color); color: white;}
+.events{box-shadow: 0 10px 30px #33333340; padding: 30px; border-radius: 4px;padding-bottom: 50px;}
+.events h3{font-size: 29px;font-family: 'Bebas Neue', cursive; }
+.events h2{font-family: 'Alfa Slab One', cursive; font-size: 38px; text-transform: uppercase;}
+.events p{font-size: 18px;}
+.events img{}
+.swiper-pagination{text-align: left; left: 40px !important; width: auto !important;}
+.swiper-pagination-bullet{width: 15px; height: 15px;}
+.swiper-pagination-bullet-active{background-color: #ffc045;}
+.navbar{position: relative; z-index: 2;}
+
+
+
+.form {
+  width: 100%;
+  height: 100vh;	
+  text-align: center;
+  background-image: url("../images/b4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form h2 {
+  padding-top: 70px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 29px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3d2514;
+}
+.form h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  color: #3d2514;
+  margin-bottom: 100px;
+}
+.form .left, .form .right {
+  padding: 15px 25px;
+  margin-bottom: 25px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 21px;
+  color: gray;
+}
+.form .left {
+  width: 25%;
+  margin-right: 12px;
+}
+.form .right {
+  width: 25%;
+  margin-left: 12px;
+}
+.form .btn {
+  padding: 15px;
+  margin-bottom: 4px;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  background-color: #bf2121;
+  width: 25%;
+  margin-left: 38px;
+  border: none;
+}
+.form .btn:hover {
+  background-color: gold;
+  color: #cc0000;
+  border: 2px inset #cc0000;
+  border-radius: 25px;
+  transition:	0.37s ease-out;
+  font-size: 21px;
+  cursor: pointer;
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+.form .btn:focus {
+  outline: none;
+}
+.footer{
+	width: 100%; padding-top: 50px;	
+}
+.footer-content{
+	width: 100%;
+	height: 455px;
+	background-image: url("../images/footer.png");
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/******footer left******/
+.footer-left{
+	width: 50%;
+	margin: 80px 0px 0px 45px;
+}
+
+.footer-left .logo{
+
+}
+.footer-left .logo img{
+	margin-left: -8px;
+}
+
+.footer-left .pera{
+	margin: 45px 100px 110px 0px
+}
+.footer-left .pera p{
+	text-align: justify;
+	color: rgb(255, 255, 255, 0.75);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.footer-left .copyright{
+
+}
+.footer-left .copyright p{
+	text-align: left;
+	color: rgb(255, 255, 255, 0.80);
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16.67px;
+	font-weight: 300;
+	letter-spacing: 0.05px; margin-left: -1px;
+}
+
+
+
+
+
+
+/******footer right******/
+.footer-right{
+	width: 50%;
+	margin-top: 195px 
+}
+
+.footer-right .address{
+    margin-left: 165px;
+    margin-top: -33px;
+}
+.footer-right .address .address-loc{
+	display: flex;
+	margin-bottom: 12px;
+}
+.address-loc img{
+	vertical-align: middle;
+max-width: 9%; height: 30px;
+}
+ .address-loc p{
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.05px;
+	margin-left: 15px;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+.footer-right .address .address-mail{
+	display: flex;
+}
+.footer-right .address .address-mail img{
+	vertical-align: middle;height: 24px;
+}
+.footer-right .address .address-mail p{
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.05px;
+	margin-left: 17px;
+	vertical-align: middle;
+}
+
+.side{padding: 15px 25px;
+  margin-bottom: 25px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 21px;
+  color: gray;}
+.footer-right .socialicon{
+	margin: 120px 30px 20px 200px;
+}
+.footer-right .socialicon ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.footer-right .socialicon ul li a i{
+	color: black;
+	height: 30px;
+	width: 30px;
+	background-color: white;
+	text-align: center;
+	line-height: 30px;
+	border-radius:100%;
+	border: 1.5px solid white;
+	transition: 1.5s linear;
+
+}
+.footer-right .socialicon ul li a i:hover{
+	border: 0.25px solid #cc0000;
+	background-color: gold;
+	color: #cc0000;
+	transform: scale(1.5);
+	transition: all 1s cubic-bezier(1, -1.4, 0, 2.2);
+
+}
+.address-loc img{}
